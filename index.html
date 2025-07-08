@@ -106,7 +106,10 @@
                 transform: rotate(10deg);
             }
         }
-        
+        .typewriter {
+            display: inline-block;
+            max-width: 100%;
+        }
         .typewriter h1 {
             overflow: hidden;
             border-right: 2px solid var(--accent);
@@ -114,15 +117,15 @@
             margin: 0 auto;
             letter-spacing: .15em;
             animation: 
-                typing 3.5s steps(40, end),
+                smoothTyping 2.0s ease forwards,
                 blink-caret .75s step-end infinite;
         }
         
-        @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
+        @keyframes smoothTyping {
+            from { width: 0; }
+            to { width: 100%; }
         }
-        
+
         @keyframes blink-caret {
             from, to { border-color: transparent }
             50% { border-color: var(--accent); }
@@ -202,8 +205,7 @@
                         I'm committed to learning and growing every day, exploring the fascinating world of knowledge while balancing academics with personal development.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="#contact" class="px-6 py-2 bg-accent text-white rounded-full hover:bg-opacity-90 transition">Contact Me</a>
-                        <a href="#projects" class="px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:bg-opacity-10 transition">My Activities</a>
+                        <!--<a href="#projects" class="px-6 py-2 border border-white text-white rounded-full hover:bg-white hover:bg-opacity-10 transition">My Activities</a>-->
                     </div>
                 </div>
             </div>
@@ -223,7 +225,7 @@
             
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0">
-                    <img src="https://placehold.co/600x400" alt="Student studying in a cozy cafe with laptop and notebook" class="rounded-lg shadow-lg">
+                    <img src="fb.jpeg" alt="Student studying in a cozy cafe with laptop and notebook" class="rounded-lg shadow-lg">
                 </div>
                 
                 <div class="md:w-1/2 md:pl-10">
@@ -233,7 +235,7 @@
                             I'm a passionate learner currently navigating through my academic journey. With curiosity as my compass, I'm constantly exploring new subjects and pushing my boundaries.
                         </p>
                         <p class="mb-6 text-gray-600 leading-relaxed">
-                            I’m especially interested in everything related to computers — from programming and software development to understanding how technology shapes the world around us. Exploring this field fuels my motivation to keep learning and building.
+                            I'm especially interested in everything related to computers — from programming and software development to understanding how technology shapes the world around us. Exploring this field fuels my motivation to keep learning and building.
                         </p>
                         
                         <div class="grid grid-cols-2 gap-4">
