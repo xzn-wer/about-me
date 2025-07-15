@@ -1,6 +1,6 @@
 # ✨ My Personal Website
 
-Ini adalah website pribadi gw buat nunjukin info tentang diri gw, perjalanan pendidikan, dan skill yang lagi gw pelajari.
+Ini adalah website pribadi yg sbenernya iseng dibuat karena gabut pas libur
 
 ## 🔧 Tech Stack
 
